@@ -29,4 +29,4 @@ Welcome to the Low Code Development with Oracle Autonomous Cloud workshop. This 
   
   ![](images/002.png)
 
-You're now ready to continue with [**Lab 1**](?page=Lab1.md).
+**You're now ready to continue with [**Lab 1**](?page=Lab1.md).**
