@@ -66,5 +66,3 @@ Now that the wizard has created the app, you should run the app to review what h
   ![](images/Lab200/009.png)
 
 
-**This completes the Lab!**
-
