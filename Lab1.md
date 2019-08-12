@@ -108,6 +108,3 @@ You have already applied for and received your Oracle Cloud Trial Account.
   ![](images/Lab100/011.png)
 
 
-**This completes the Lab!**
-
-**You are ready to proceed to [Lab 2](Lab2.md)**

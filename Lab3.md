@@ -242,6 +242,6 @@ In this section, you will access SQL Developer Web and review the current object
    ![](images/Lab300/044.png)
 
 
-**This completes the Lab!**
 
-**You are ready to proceed to [Lab 4](Lab4.md)**
+
+
