@@ -21,7 +21,7 @@ Welcome to the Low Code Development with Oracle Autonomous Cloud workshop. This 
 
   ![](images/getstartednow.png)
 
-### **Step 2**: Navigate to Lab 050
+### **Step 2**: Navigate to Lab 1
 
   - _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window.
 
