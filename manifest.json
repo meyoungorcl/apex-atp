@@ -15,36 +15,36 @@
                 }
             },
             {
-                "number": "100",
-                "filename": "Lab100.md",
-                "title": "Lab 100: Obtain a Workspace",
+                "number": "1",
+                "filename": "Lab1.md",
+                "title": "Lab 1: Obtain a Workspace",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
                 }
             },
             {
-                "number": "200",
-                "filename": "Lab200.md",
-                "title": "Lab 200: Create an App from a Spreadsheet",
+                "number": "2",
+                "filename": "Lab2.md",
+                "title": "Lab 2: Create an App from a Spreadsheet",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
                 }
             },
             {
-                "number": "300",
-                "filename": "Lab300.md",
-                "title": "Lab 300: Build Database Objects in SQL Developer Web",
+                "number": "3",
+                "filename": "Lab3.md",
+                "title": "Lab 3: Build Database Objects in SQL Developer Web",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
                 }
             },
             {
-                "number": "400",
-                "filename": "Lab400.md",
-                "title": "Lab 400: Create and Modify APEX Application",
+                "number": "4",
+                "filename": "Lab4.md",
+                "title": "Lab 4: Create and Modify APEX Application",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"

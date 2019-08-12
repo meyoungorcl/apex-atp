@@ -244,4 +244,4 @@ In this section, you will access SQL Developer Web and review the current object
 
 **This completes the Lab!**
 
-**You are ready to proceed to [Lab 400](Lab400.md)**
+**You are ready to proceed to [Lab 4](Lab4.md)**

@@ -68,4 +68,4 @@ Now that the wizard has created the app, you should run the app to review what h
 
 **This completes the Lab!**
 
-**You are ready to proceed to [Lab 300](Lab300.md)**
+**You are ready to proceed to [Lab 3](Lab3.md)**
