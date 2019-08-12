@@ -1,4 +1,4 @@
-# Lab 200: Create an App From a Spreadsheet
+# Lab 2: Create an App From a Spreadsheet
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Within the Oracle APEX development environment (IDE) you will spend the majority
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 200 Objectives
+## Lab 2 Objectives
 
 - Load Project and Tasks Data 
 - Create and Run Application

@@ -1,4 +1,4 @@
-# Lab 400: Create and Modify APEX Application
+# Lab 4: Create and Modify APEX Application
 
 ## Introduction
 
@@ -6,7 +6,7 @@ In this lab, you will create a new application that will ustilize the database o
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 400 Objectives
+## Lab 4 Objectives
 
 - Create Interactive Report and Form
 - Set List of Values in Form

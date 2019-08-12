@@ -1,4 +1,4 @@
-# Lab 300: Build Database Objects in Autonomous Database
+# Lab 3: Build Database Objects in Autonomous Database
 
 ## Introduction
 
@@ -6,7 +6,7 @@ In this lab, you will create database objects using Quick SQL and then view the 
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 300 Objectives
+## Lab 3 Objectives
 
 - Create Database Objects using Quick SQL
 - View Database Objects in SQL Developer Web

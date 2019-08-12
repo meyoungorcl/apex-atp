@@ -1,4 +1,4 @@
-# Lab 100: Obtain a Workspace
+# Lab 1: Obtain a Workspace
 
 ## Introduction
 
@@ -8,7 +8,7 @@ When you first go into Oracle APEX you will need to log into Oracle APEX Instanc
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 100 Objectives
+## Lab 1 Objectives
 
 - Log In to Cloud Account
 - Create Autonomous Transaction Processing Service
