@@ -136,7 +136,7 @@ In this lab, you will create a new application that will utilize the database ob
 
   ![](images/Lab400/029.png)
 
-- Select Alternative for Type, enter a Name and click **Save**.
+- Select **Alternative** for Type, enter a Name and click **Save**.
 
   ![](images/Lab400/030.png)
 
