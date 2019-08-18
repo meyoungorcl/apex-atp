@@ -2,7 +2,7 @@
 
 Welcome to the Low Code Development with Oracle Autonomous Cloud workshop. This workshop will walk you through the following tasks:
 
--  Create an Autonomous Transaction Processing Service
+-  Create an Autonomous Transaction Processing Database
 -  Access APEX in the Oracle Cloud
 -  Create an APEX Workspace
 -  Create an Application from a File
