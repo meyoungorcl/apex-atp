@@ -2,26 +2,24 @@
 
 ## Introduction
 
-Oracle APEX will run within your Autonomous Database. As a result, you will need to create an Autonomous Transaction Processing service and then access Oracle APEX from within the Service Console. 
+Oracle APEX is a feature of Oracle Database, including the Autonomous Data Warehouse (ADW) and Autonomous Transaction Processing (ATP) databases. To start, you will need to create an ATP instance and then access APEX from within the Service Console. 
 
-When you first go into Oracle APEX you will need to log into Oracle APEX Instance Administration to create a workspace. A workspace is a logical domain where you define Oracle APEX applications. It is associated with one or more database schemas (database users) which is used to store the database objects, such as tables, views, packages, and functions, and more. These database objects are generally what you base the Oracle APEX applications on.
+When you first go into APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what you base APEX applications on.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ## Lab 1 Objectives
 
-- Log In to Cloud Account
-- Create Autonomous Transaction Processing Service
-- Create a, Oracle APEX Workspace
-- Login to your new Workspace
+- Log In to your Cloud Account
+- Create an Autonomous Transaction Processing Database
+- Create a New Workspace in APEX
+- Log In to Your New Workspace
 
 ## Steps
 
-### **STEP 1:** Your Oracle Cloud Trial Account
+### **STEP 1:** Log In to your Cloud Account
 
-You have already applied for and received your Oracle Cloud Trial Account.
-
-### **STEP 2:** Log in to your Cloud Account
+- You should have already received your Oracle Cloud Trial Account. If not, [click here](https://myservices.us.oraclecloud.com/mycloud/signup) to request a trial account.
 
 - Once you receive the **Get Started Now with Oracle Cloud** Email, make note of your **Username, Password and Cloud Account Name**.
 
@@ -37,7 +35,7 @@ You have already applied for and received your Oracle Cloud Trial Account.
 
   ![](images/Lab100/002.png)
 
-### **STEP 3:** Create an Autonomous Transaction Processing Service
+### **STEP 2:** Create an Autonomous Transaction Processing Database
 
 - From the Cloud Dashboard, select the Hamburger Menu and select **Autonomous Transaction Processing**.
 
@@ -61,7 +59,7 @@ You have already applied for and received your Oracle Cloud Trial Account.
 
   ![](images/Lab100/003f.png)
 
-### **STEP 4:** Create an Oracle APEX Workspace
+### **STEP 3:** Create a new Workspace in APEX
 
 - Click **Development**, and then click **APEX**.
 
@@ -90,7 +88,7 @@ You have already applied for and received your Oracle Cloud Trial Account.
 	
   ![](images/Lab100/008.png)
 
-### **STEP 5:** Log In to Your New Workspace
+### **STEP 4:** Log In to Your New Workspace
 
 - Enter your workspace details and click **Sign In**.
 
