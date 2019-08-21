@@ -160,7 +160,7 @@ h3.first-in-section {
 }
 
 h3.first-in-section::after {
-    content: '+ Expand All Steps';
+    content: '+ Expand All Parts';
     position: absolute;
     top: -45px;
     left: -9px;

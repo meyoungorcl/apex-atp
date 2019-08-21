@@ -166,11 +166,13 @@ In this section, you will access SQL Developer Web and review the current object
 
    ![](images/Lab300/023.png)
 
--  Enter the following SQL in the right area and click the "run" icon to see the data in the table. The data should be displayed in the Query Result tab at the bottom.
+-  Enter the following SQL in the right area and click the "run" icon to see the data in the table.
 
    ```sql
    select * from hol_projects;
    ```
+
+   The data should be displayed in the Query Result tab at the bottom.
 
    ![](images/Lab300/026.png)
 
