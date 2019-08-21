@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Now that you are logged into your workspace, you can start creating APEX applications. You will build a simple application based on a spreadsheet. However, APEX scales well, allowing you to also build large, sophisticated apps based on local database objects, REST enabled SQL objects, and even REST APIs.
+Now that you are logged into your workspace, you can start creating APEX applications. In this lab, you will build a simple application based on a spreadsheet. Keep in mind that APEX scales well, from simple apps to large, sophisticated ones based on local database objects, REST enabled SQL objects, and even REST APIs.
 
 Within the APEX development environment, you will spend the majority of your time in the App Builder. In your own time you should also investigate the SQL Workshop, where you can create and maintain database objects, Team Development, where you can track large APEX development projects, and the App Gallery, which contains numerous productivity and sample apps that can be installed within minutes.
 
@@ -10,26 +10,24 @@ Within the APEX development environment, you will spend the majority of your tim
 
 ## Lab 2 Objectives
 
-- Load Project and Tasks Data 
-- Create and Run an Application
+- Load project and tasks data
+- Create and run an application
 
 ## Steps
 
-### **STEP 1:** Load Project and Tasks Data
+### **STEP 1:** Load project and tasks data
 
--  Click **App Builder**, then click **Create a New App**
-{Note: You can also click Create if you already have an app defined}
+-  Click **App Builder**, then click **Create a New App**. {Note: You can also click Create if you already have an app defined}
 
-  ![](images/Lab200/001.png)
+    ![](images/Lab200/001.png)
 
 - Click **From a File**.
 
   ![](images/Lab200/002.png)
 
-When creating an application from a file, APEX allows you to drag and drop or upload CSV, XLSX, XML, or JSON files and then build apps based on that data. Alternatively, you can also copy and paste CSV data or load sample data. 
+  When creating an application from a file, APEX allows you to upload CSV, XLSX, XML, or JSON files and then build apps based on their data. Alternatively, you can also copy and paste CSV data or load sample data. 
 
-- Within the wizard, click **Copy and Paste**.
-From the sample data set list select **Project and Tasks** and click **Next**.
+- Within the wizard, click **Copy and Paste**. From the sample data set list select **Project and Tasks** and click **Next**.
 
   ![](images/Lab200/003.png)
 
@@ -37,7 +35,7 @@ From the sample data set list select **Project and Tasks** and click **Next**.
 
   ![](images/Lab200/004.png)
 
-### **STEP 2:** Create and Run an Application
+### **STEP 2:** Create and run an application
 
 The wizard has created a new table and populated that table with the records from the sample data. Now you can create an app based on this new table.
 
@@ -60,8 +58,6 @@ Now that the wizard has created the app, you should run the app to review what h
 
 - On the Sign In page, enter your database username and password as entered in Lab 1, Step 3. Then click **Sign In**. 
 
-- Click on the navigation menu options to review the report and click the edit icon on a record to display the form page. Review the charts displayed on the dashboard page, and review the options available under Administration.
+- Click on the **Spreadsheet** option in the navigation menu to view the sample data, then click the edit icon for a record to display the form page. Next, navigate to the **Dashboard** page and review the charts displayed there. Finally, review the options available under **Administration**.
 
   ![](images/Lab200/009.png)
-
-

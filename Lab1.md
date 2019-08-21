@@ -70,7 +70,7 @@ When you first go into APEX you will need to log in as an APEX instance administ
   ![](images/Lab100/006.png)
 
 - Enter your database user details and click **Create Workspace**:
-  -  Database User = <Your first initial || last name or similar>
+  -  Database User = **DEMO**
   -  Password = <Your Password> {Note: The password must conform to Oracle Autonomous standards}
   -  Workspace Name = {Will default to Database User}
   
