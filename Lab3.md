@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will create database objects using Quick SQL and then view the objects in SQL Developer Web. Then you will use SQL Developer Web to create an additional table and view all the database objects as a data model.
+In this module, you will create database objects using Quick SQL and then view the objects in SQL Developer Web. Then you will then use SQL Developer Web to create an additional table and view all the database objects as a data model.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
@@ -12,6 +12,8 @@ In this lab, you will create database objects using Quick SQL and then view the 
 - View database objects in SQL Developer Web
 - View database objects as a data model
 - Create a new table and add it to the data model
+
+## Parts
 
 ### **Part 1:** Create database objects using Quick SQL
 
