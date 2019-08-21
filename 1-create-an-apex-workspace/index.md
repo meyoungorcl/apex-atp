@@ -1,14 +1,14 @@
-# Lab 1: Obtain a Workspace
+# Module 1: Create an APEX Workspace
 
 ## Introduction
 
 Oracle Application Express (APEX) is a feature of Oracle Database, including the Autonomous Data Warehouse (ADW) and Autonomous Transaction Processing (ATP) services. To start, you will need to create an ATP instance and then access APEX from within the Service Console. 
 
-When you first go into APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what you base APEX applications on.
+When you first access APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what you base APEX applications on.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 1 Objectives
+## Module 1 Objectives
 
 - Log in to your Oracle Cloud account
 - Create an Autonomous Transaction Processing instance

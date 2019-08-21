@@ -16,8 +16,8 @@
             },
             {
                 "number": "1",
-                "filename": "Lab1.md",
-                "title": "Lab 1: Obtain a Workspace",
+                "filename": "1-create-an-apex-workspace/index.md",
+                "title": "Module 1: Create an APEX Workspace",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
@@ -35,7 +35,7 @@
             {
                 "number": "3",
                 "filename": "3-build-database-objects-in-autonomous-database/index.md",
-                "title": "Lab 3: Build Database Objects in SQL Developer Web",
+                "title": "Module 3: Build Database Objects in SQL Developer Web",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
