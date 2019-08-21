@@ -7,7 +7,7 @@
         "labs": [
             {
                 "number": "0",
-                "filename": "Intro.md",
+                "filename": "0-intro/index.md",
                 "title": "Workshop Introduction",
                 "description": "",
                 "labels": {
