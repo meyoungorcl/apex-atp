@@ -1,84 +1,85 @@
-# Lab 4: Create and Modify APEX Application
+# Module 4: Create and Modify an APEX App
 
 ## Introduction
 
-In this lab, you will create a new application that will utilize the database objects you created in the previous lab. You will create and modify an application with an Interactive Grid and Calendar page.
+In this module, you will create a new application that will utilize the database objects you created in the previous module. You will create and modify an application with an Interactive Grid and Calendar page.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
-## Lab 4 Objectives
+## Module 4 Objectives
 
-- Create Interactive Grid
+- Create an Interactive Grid
 - Enhance the Interactive Grid
-- Save Report
+- Save the report settings
 - Add a Calendar page
 
-## Steps
+## Parts
 
-### **STEP 1:** Create Interactive Report and Form
+### **Part 1:** Create an Interactive Grid
 
-- Click **Create App from Script**
-{Note: If you are back on SQL Scripts, and don’t see the “Create App from Script” button perform the following steps:1. Within the Results column, click “1” for the script you just ran. 2. Under View Results, click the magnifying glass. The results page shown above should now be displayed again}
+1. Click **Create App from Script**. Note: If you are back on SQL Scripts and don’t see the “Create App from Script” button, perform the following steps:
+   - Within the Results column, click “1” for the script you just ran.
+   - Under View Results, click the magnifying glass. The results page shown above should now be displayed again.
 
-  ![](images/Lab400/001.png)
+   ![](images/Lab400/001.png)
 
-- For Name, enter **Projects** and click **Appearance**. For Theme Style, select **Vita-Slate** and click **Save Changes**.
+2. For Name, enter **Projects** and click **Appearance**. For Theme Style, select **Vita-Slate** and click **Save Changes**.
 
-  ![](images/Lab400/002.png)
+   ![](images/Lab400/002.png)
 
-- For Features, click **Check All**.
+3. For Features, click **Check All**.
 
-  ![](images/Lab400/003.png)
+   ![](images/Lab400/003.png)
 
-- Click **Create Application**.
+4. Click **Create Application**.
 
   ![](images/Lab400/004.png)
 
-- Your new application will be displayed in Page Designer. Click **Run Application**.
+5. Your new application will be displayed in Page Designer. Click **Run Application**.
 
-  ![](images/Lab400/005.png)
+   ![](images/Lab400/005.png)
 
-- Enter your credentials and review your new application.
+6. Enter your credentials and review your new application.
 
-  ![](images/Lab400/006.png)
+   ![](images/Lab400/006.png)
 
-- From the development environment, click **App Builder**, and then select **Create**.
+7. From the development environment, click **App Builder**, and then select **Create**.
 
-  ![](images/Lab400/007.png)
+   ![](images/Lab400/007.png)
 
-- Click **New Application**.
+8. Click **New Application**.
 
-  ![](images/Lab400/021.png)
+   ![](images/Lab400/021.png)
 
-- In the Create App Wizard, click **Load Blueprint** and for Projects, click **Load**. 
+9. In the Create App Wizard, click **Load Blueprint** and for Projects, click **Load**. 
 
-  ![](images/Lab400/008.png)
+   ![](images/Lab400/008.png)
 
-- Click **Add Page** and then click **Interactive Grid**.
+10. Click **Add Page** and then click **Interactive Grid**.
 
-  ![](images/Lab400/009.png)
+   ![](images/Lab400/009.png)
 
-- For Page Name, enter **Milestones**, for Table or View, select **HOL_MILESTONES** and click **Add Page**.
+11. For Page Name, enter **Milestones**, for Table or View, select **HOL_MILESTONES** and click **Add Page**.
 
-  ![](images/Lab400/010.png)
+   ![](images/Lab400/010.png)
 
-- Click and hold the mouse when hovering over the hamburger for the Milestones – Interactive Grid page. Move it up until the page is under Projects and release the mouse.
+12. Click and hold the mouse when hovering over the hamburger for the Milestones – Interactive Grid page. Move it up until the page is under Projects and release the mouse.
 
-  ![](images/Lab400/011.png)
+   ![](images/Lab400/011.png)
 
-- For Milestones – Interactive Report with Form page, click **Edit** and then click **Delete**.
+13. For Milestones – Interactive Report with Form page, click **Edit** and then click **Delete**.
 
-  ![](images/Lab400/012.png)
+   ![](images/Lab400/012.png)
 
-- Click **Create Application**. In Page Designer, click **Run Application**.
+14. Click **Create Application**. In Page Designer, click **Run Application**.
 
-  ![](images/Lab400/013.png)
+   ![](images/Lab400/013.png)
 
-- In the runtime environment, click **Milestones**.
+15. In the runtime environment, click **Milestones**.
 
-  ![](images/Lab400/014.png)
+   ![](images/Lab400/014.png)
 
-### **STEP 2:** Enhance the Interactive Grid
+### **Part 2:** Enhance the Interactive Grid
 
 - In the Developer Toolbar, click **Edit Page 6**.
 
@@ -130,9 +131,9 @@ In this lab, you will create a new application that will utilize the database ob
 
   ![](images/Lab400/031.png)
 
-### **STEP 3:** Save Report
+### **Part 3:** Save the report settings
 
-- You want to save this report so you don't need to apply the changes you just made everytime. Click **Actions**, select **Report**, select **Save As**.
+- You want to save this report so you don't need to apply the changes you just made every time. Click **Actions**, select **Report**, select **Save As**.
 
   ![](images/Lab400/029.png)
 
@@ -144,7 +145,7 @@ In this lab, you will create a new application that will utilize the database ob
 
   ![](images/Lab400/031.png)
 
-### **STEP 4:** Create Calendar Page
+### **Part 4:** Add a Calendar page
 
 - You want to create a schedule of all your projects in a calendar. Click the Application link in the developer toolbar.
 
@@ -190,4 +191,3 @@ In this lab, you will create a new application that will utilize the database ob
   ![](images/Lab400/040.png)
 
 **This completes the Lab!**
-
