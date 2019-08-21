@@ -27,27 +27,27 @@ When you first access APEX you will need to log in as an APEX instance administr
 
 4. Enter your **Cloud Account Name** in the input field and click the **Next** button.
 
-   ![](1-create-an-apex-workspace/images/enter-oracle-cloud-account-name.png)
+   ![](images/1/enter-oracle-cloud-account-name.png)
 
 5. Enter your **Username** and **Password** in the input fields and click **Sign In**.
 
-   ![](1-create-an-apex-workspace/images/enter-user-name-and-password.png)
+   ![](images/1/enter-user-name-and-password.png)
 
 ### **Part 2:** Create an Autonomous Transaction Processing instance
 
 1. From the Cloud Dashboard, select the navigation menu icon in the upper left-hand corner and then select **Autonomous Transaction Processing**.
 
-   ![](1-create-an-apex-workspace/images/select-atp-in-nav-menu.png)
+   ![](images/1/select-atp-in-nav-menu.png)
 
 2. Click **Create Autonomous Database**.
 
-   ![](1-create-an-apex-workspace/images/click-create-autonomous-database.png)
+   ![](images/1/click-create-autonomous-database.png)
 
 3. Leave all of the default selections, enter a password for the ADMIN user, then click **Create Autonomous Database**. Remember the password as it will be required later on.
 
-   ![](1-create-an-apex-workspace/images/atp-settings-1.png)
-   ![](1-create-an-apex-workspace/images/atp-settings-2.png)
-   ![](1-create-an-apex-workspace/images/atp-settings-3.png)
+   ![](images/1/atp-settings-1.png)
+   ![](images/1/atp-settings-2.png)
+   ![](images/1/atp-settings-3.png)
 
    After clicking **Create Autonomous Database**, you will be redirected to the Autonomous Database Details page for the new instance. Continue to the next step when the status changes from **PROVISIONING...** to **AVAILABLE**.
 
@@ -55,31 +55,31 @@ When you first access APEX you will need to log in as an APEX instance administr
 
 1. Click the **Service Console** button.
 
-   ![](1-create-an-apex-workspace/images/access-atp-service-console.png)
+   ![](images/1/access-atp-service-console.png)
 
 2. Click **Development** option in the menu on the left, then click the **Oracle Application Express** option.
 
-   ![](1-create-an-apex-workspace/images/access-apex.png)
+   ![](images/1/access-apex.png)
 
 3. Enter the password for the Administration Services and click **Sign In to Administration**. The password is the same as the one entered for the ADMIN user when creating the ATP instance.
 
-   ![](1-create-an-apex-workspace/images/log-in-as-admin.png)
+   ![](images/1/log-in-as-admin.png)
 
 4. Click **Create Workspace**.
   
-  ![](1-create-an-apex-workspace/images/welcome-create-workspace.png)
+  ![](images/1/welcome-create-workspace.png)
 
 5. Enter your database user details and click **Create Workspace**:
    -  Database User = **DEMO**
    -  Password = <Your Password> {Note: The password must conform to Oracle Autonomous  standards}
    -  Workspace Name = {Will default to Database User}
   
-   ![](1-create-an-apex-workspace/images/create-workspace.png)
+   ![](images/1/create-workspace.png)
 
 6. Click the Account Menu (top right of the screen) and click **Sign Out**. This will log you out of APEX administration so that you can log into your new workspace. Once logged out, click the **Return to Sign In Page** button.
 	
-   ![](1-create-an-apex-workspace/images/log-out-from-admin.png)
+   ![](images/1/log-out-from-admin.png)
 
 7. Enter your workspace details and click **Sign In**.
 
-   ![](1-create-an-apex-workspace/images/log-in-to-workspace.png)
+   ![](images/1/log-in-to-workspace.png)

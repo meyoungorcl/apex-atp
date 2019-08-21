@@ -21,12 +21,12 @@ Welcome to the Low Code Development with Oracle Autonomous Cloud hands-on lab. T
 
 3. Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to the next step.
 
-   ![](images/0-intro/get-started-now.png)
+   ![](images/0/get-started-now.png)
 
 ### **Part 2**: Navigate to Module 1
 
 1. You can see a list of modules by clicking on the **Menu Icon** in the upper-left corner of the browser window.
 
-	 ![](images/0-intro/lab-intro.png)
+	 ![](images/0/lab-intro.png)
   
-   ![](images/0-intro/lab-contents.png)
+   ![](images/0/lab-contents.png)
