@@ -13,7 +13,7 @@ In this lab, you will create database objects using Quick SQL and then view the 
 - View database objects as a data model
 - Create a new table and add it to the data model
 
-###Part 1: Create database objects using Quick SQL
+### Part 1: Create database objects using Quick SQL
 
 1. Select **SQL Workshop**, then select **SQL Scripts**.
 
@@ -114,7 +114,7 @@ In this lab, you will create database objects using Quick SQL and then view the 
 
     ![](images/Lab300/016.png)
 
-###Part 2: View database objects in SQL Developer Web
+### Part 2: View database objects in SQL Developer Web
 
 In this section, you will access SQL Developer Web and review the current objects and make some modifications to the data model.
 
@@ -172,7 +172,7 @@ In this section, you will access SQL Developer Web and review the current object
 
    ![](images/Lab300/026.png)
 
-###Part 3: View database objects as a data model
+### Part 3: View database objects as a data model
 
 -  Let's view the tables in a data model diagram. Click the **Data Model** tab. Close the Help popup.
 
@@ -249,8 +249,3 @@ In this section, you will access SQL Developer Web and review the current object
 -  Drag the new HOL_TODOS table from the Navigator to the Diagram. You notice that the new foreign key is displayed between HOL_TEAM_MEMBERS and HOL_TODOS.
 
    ![](images/Lab300/044.png)
-
-
-
-
-
