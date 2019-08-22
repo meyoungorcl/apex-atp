@@ -2,24 +2,24 @@
 
 Welcome to the Low Code Development with Oracle Autonomous Cloud hands-on lab. This lab will walk you through the following tasks:
 
--  Create an Autonomous Transaction Processing Service
+-  Create an Autonomous Transaction Processing instance
 -  Access APEX in the Oracle Cloud
 -  Create an APEX Workspace
--  Create an Application from a File
--  Use Quick SQL to Create Database Objects
--  Use SQL Developer Web to Access Database Objects
--  Use SQL Developer Web to Create Data Model
--  Create and Modify an APEX Application
+-  Create an application from a file
+-  Use Quick SQL to create database objects
+-  Use SQL Developer Web to access database objects
+-  Use SQL Developer Web to create data model
+-  Create and modify an APEX application
 
 ## Parts
 
-### **Part 1**: Acquire an Oracle Cloud Trial account
+### **Part 1**: Acquire an Oracle Cloud trial account
 
-1. Bookmark this page for future reference.
+1. If you already have an Oracle Cloud trial account, you may skip to the next part.
 
-2. Please click on the following link to create your <a href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ow:lp:cpo::RC_NAMK190523P00161:APEX_ATP_HOL&intcmp=:ow:lp:cpo::RC_NAMK190523P00161:APEX_ATP_HOL" target="_trial_">Free Account</a>, and complete all the required steps to get your free Oracle Cloud Trial Account. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free.  Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
+2. Please <a href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ow:lp:cpo::RC_NAMK190523P00161:APEX_ATP_HOL&intcmp=:ow:lp:cpo::RC_NAMK190523P00161:APEX_ATP_HOL" target="_trial_">click this link to create your free account</a>. When you complete the registration process you'll receive an account with a $300 credit that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud.
 
-3. Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to the next step.
+3. Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to Part 2.
 
    ![](images/0/get-started-now.png)
 
