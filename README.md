@@ -21,12 +21,14 @@ Welcome to the Low Code Development with Oracle Autonomous Cloud hands-on lab. T
 
 3. Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to Part 2.
 
-   ![](images/0/get-started-now.png)
+   ![](images/0/get-started-email.png)
 
 ### **Part 2**: Navigate to Module 1
 
-1. You can see a list of modules by clicking on the **Menu Icon** in the upper-left corner of the browser window.
+1. Click the navigation menu icon in the upper-left corner of the browser window to see a list of modules in the lab.
 
 	 ![](images/0/lab-intro.png)
+
+2. Click **Module 1: Create an APEX Workspace**.
   
    ![](images/0/lab-contents.png)
