@@ -76,7 +76,7 @@ When you first access APEX you will need to log in as an APEX instance administr
 5. Enter the following details and click **Create Workspace**:
 
    | Property | Value |
-   | -      | -         |
+   | --- | --- |
    | Database User | **DEMO** |
    | Password | **`SuperSecretPassw0rd`** |
    | Workspace Name | **DEMO** |
