@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Now that you are logged into your workspace, you can start creating APEX applications. In this module, you will build a simple application based on a spreadsheet. Keep in mind that APEX scales well, from simple apps to large, sophisticated ones based on local database objects, REST enabled SQL objects, and even REST APIs.
+Now that you are logged into your workspace, you can start creating APEX applications. In this module, you will build a simple application based on a spreadsheet. Keep in mind that APEX is great for a variety of apps, from simple ones like this to large, sophisticated apps based on local database objects, REST enabled SQL objects, and even REST APIs.
 
-Within the APEX development environment, you will spend the majority of your time in the App Builder. In your own time you should also investigate the SQL Workshop, where you can create and maintain database objects, Team Development, where you can track large APEX development projects, and the App Gallery, which contains numerous productivity and sample apps that can be installed within minutes.
+While APEX developers spend the majority of their time in the App Builder, you should also investigate the SQL Workshop, where you can create and maintain database objects, Team Development, where you can track large APEX development projects, and the App Gallery, which contains numerous productivity and sample apps that can be installed within minutes.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
@@ -61,3 +61,7 @@ for Features click **Check All** and click **Create Application**.
 5. Click on the **Spreadsheet** option in the navigation menu to view the sample data, then click the edit icon for a record to display the form page. Next, navigate to the **Dashboard** page and review the charts displayed there. Finally, review the options available under **Administration**.
 
    ![](images/2/app-home-page.png)
+
+## Summary
+
+This completes Module 2. You now know how to create applications on top of data imported from other sources, such as spreadsheets. Use the navigation menu to navigate to Module 3.
