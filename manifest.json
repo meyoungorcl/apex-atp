@@ -1,6 +1,6 @@
 {
     "workshop": {
-        "title": "Low Code Application Development with Oracle Autonomous Database Hands-on Lab",
+        "title": "Low Code  Development with Oracle Autonomous Database Hands-on Lab",
         "description": "Learn how to access and create applications using Oracle APEX and SQL Developer Web in the Oracle Cloud.",
         "theme": "default",
         "interactive":"https://launch.oracle.com/?apex-atp",
