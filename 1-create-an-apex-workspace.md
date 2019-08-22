@@ -90,3 +90,7 @@ When you first access APEX you will need to log in as an APEX instance administr
 7. Enter **`SuperSecretPassw0rd`** for the password, check the **Remember workspace and username** checkbox, and then click **Sign In**.
 
    ![](images/1/log-in-to-workspace.png)
+
+## Summary
+
+This completes Module 1. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. Use the navigation menu to navigate to Module 2.
