@@ -67,4 +67,4 @@ The Data Load wizard has created a new table and populated that table with the r
 
 ## Summary
 
-This completes Module 2. You now know how to create applications on top of data imported from other sources, such as spreadsheets. Use the navigation menu to navigate to Module 3.
+This completes Module 2. You now know how to create applications on top of data imported from other sources, such as spreadsheets. [Click here](?page=3-build-database-objects-in-autonomous-database.md) to navigate to Module 3.

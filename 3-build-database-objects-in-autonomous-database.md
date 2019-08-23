@@ -266,3 +266,7 @@ In this part, you will use SQL Developer Web to create a new table. Then you'll 
 11. Drag the new **HOL_TODOS** table from the Navigator to the diagram. Notice that the new foreign key is displayed between HOL_TEAM_MEMBERS and HOL_TODOS.
 
     ![](images/3/final-erd.png)
+
+## Summary
+
+This completes Module 3. At this point you know how to use both APEX's SQL Workshop as well as SQL Developer Web to create and modify database objects. You also know how to use the Data Modeler in SQL Developer Web to create an ERD. [Click here](?page=4-create-and-modify-an-apex-app.md) to navigate to Module 4.

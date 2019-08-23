@@ -35,7 +35,7 @@
             {
                 "number": "3",
                 "filename": "3-build-database-objects-in-autonomous-database.md",
-                "title": "Module 3: Build Database Objects in SQL Developer Web",
+                "title": "Module 3: Build Database Objects in Autonomous Database",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
