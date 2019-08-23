@@ -65,7 +65,7 @@ When you first access APEX you will need to log in as an APEX instance administr
 
    ![](images/1/click-application-express.png)
 
-3. Enter the password for the Administration Services and click **Sign In to Administration**. The password is the same as the one entered for the ADMIN user when creating the ATP instance: **`SuperSecretPassw0rd`**
+3. Enter the password for the Administration Services and click **Sign In to Administration**. The password is the same as the one entered for the ADMIN user when creating the ATP instance: **`SecretPassw0rd`**
 
    ![](images/1/log-in-as-admin.png)
 
@@ -78,7 +78,7 @@ When you first access APEX you will need to log in as an APEX instance administr
    | Property | Value |
    | --- | --- |
    | Database User | **DEMO** |
-   | Password | **`SuperSecretPassw0rd`** |
+   | Password | **`SecretPassw0rd`** |
    | Workspace Name | **DEMO** |
   
    ![](images/1/create-workspace.png)
@@ -87,7 +87,7 @@ When you first access APEX you will need to log in as an APEX instance administr
 	
    ![](images/1/log-out-from-admin.png)
 
-7. Enter **`SuperSecretPassw0rd`** for the password, check the **Remember workspace and username** checkbox, and then click **Sign In**.
+7. Enter **`SecretPassw0rd`** for the password, check the **Remember workspace and username** checkbox, and then click **Sign In**.
 
    ![](images/1/log-in-to-workspace.png)
 
