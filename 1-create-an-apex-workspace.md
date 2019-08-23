@@ -93,4 +93,4 @@ When you first access APEX you will need to log in as an APEX instance administr
 
 ## Summary
 
-This completes Module 1. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here](?page=2-create-an-app-from-a-spreadsheet.md) to navigate to Module 2.
+This completes Module 1. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here](2-create-an-app-from-a-spreadsheet.md) to navigate to Module 2.
