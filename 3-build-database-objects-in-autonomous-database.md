@@ -184,7 +184,7 @@ In this part, you will learn how to create an Entity Relationship Diagram (ERD) 
 
    ![](images/3/data-modeler.png)
 
-2. Drag the **HOL_MILESTONES** table from the Navigator tab on the left to the Diagram in the middle of the window. You may need to adjust your browser to accommodate the ERD.
+2. Drag the **HOL_MILESTONES** table from the Navigator tab on the left to the diagram in the middle of the window. You may need to adjust your browser to accommodate the ERD.
 
    ![](images/3/drop-hol-milestones.png)
 
@@ -198,7 +198,7 @@ In this part, you will learn how to create an Entity Relationship Diagram (ERD) 
 
 ### **Part 4:** Create a new table and add it to the data model
 
-In this part, you will use SQL Developer Web to create a new table and then add it to the ERD created in the previous part.
+In this part, you will use SQL Developer Web to create a new table. Then you'll learn how to edit an existing table and add it to the ERD created in the previous part.
 
 1. In the Navigator on the left, click the "+" icon.
 
@@ -226,34 +226,39 @@ In this part, you will use SQL Developer Web to create a new table and then add 
 
    ![](images/3/new-hol-todos-table.png)
 
-7. You want to be able to assign a team member to a todo so you want to create a new column called TEAM_MEMBER_ID and create a foreign key to the HOL_TEAM_MEMBERS table. Right-click on the **HOL_TODOS** table and select **Edit...**.
+7. Right-click on the **HOL_TODOS** table and select **Edit...**.
 
    ![](images/3/edit-hol-todos.png)
 
-8. Add a new column called **TEAM_MEMBER_ID** and click **Apply**.
+8. Add a new column. Set Name to **TEAM_MEMBER_ID** and Data Type to **NUMBER**, then click **Apply**.
 
    ![](images/3/add-column-to-hol-todos.png)
 
-9. The script to create the new column ran successfully. 
+   You should see the following output which indicates the new column was added successfully.
 
-   ![](images/3/hol-todos-altered.png)
+   ![](images/3/add-team-member-id-results.png)
 
-10. Click the **Foreign Key** option on the left side of the dialog.
+9. Click the **Foreign Key** option on the left side of the dialog, then click "+" to create a new foreign key.
 
-   ![](images/3/hol-todos-fks.png)
+   ![](images/3/select-foreign-keys.png)
 
--  Click the '+' to create a new foreign key. Select it in the list and change the name to TEAM_MEMBER_ID. 
+10. Select the new foreign key and configure it with the following settings, then click **Apply**.
 
-   ![](images/3/hol-todos-new-fk.png)
+    | Property | Value |
+    | --- | --- |
+    | Name | **TODOS_TEAM_MEMBERS_FK** |
+    | Table | **HOL_TEAM_MEMBERS** |
+    | Constraint | **HOL_TEAM_MEMBERS_ID_PK** |
+    | Local Column | **TEAM_MEMBER_ID** |
 
-11. The script to create the new column ran successfully. Click the **Foreign Key** option on the left side of the dialog. Select the **HOL_TEAM_MEMBERS** table and select the **HOL_TEAM_MEMBERS_ID_PK** constraint. On the right side, select **TEAM_MEMBER_ID** for local column and click **Apply**.
+    ![](images/3/hol-todos-new-fk.png)
 
-    ![](images/3/output-from-new-fk.png)
+    You should see the following output which indicates the new foreign key was added successfully.
 
-12. The script to create the foreign key ran successfully. Click **Close**.
+    ![](images/3/hol-todos-new-fk-results.png)
 
-    ![](images/3/output-from-new-fk.png)
+    Click **Close** to dismiss the dialog.
 
-13. Drag the new HOL_TODOS table from the Navigator to the Diagram. You notice that the new foreign key is displayed between HOL_TEAM_MEMBERS and HOL_TODOS.
+11. Drag the new **HOL_TODOS** table from the Navigator to the diagram. Notice that the new foreign key is displayed between HOL_TEAM_MEMBERS and HOL_TODOS.
 
     ![](images/3/final-erd.png)

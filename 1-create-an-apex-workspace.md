@@ -73,7 +73,7 @@ When you first access APEX you will need to log in as an APEX instance administr
   
   ![](images/1/welcome-create-workspace.png)
 
-5. Enter the following details and click **Create Workspace**:
+5. Enter the following details and click **Create Workspace**.
 
    | Property | Value |
    | --- | --- |

@@ -112,6 +112,15 @@ p:not(.infra),
   margin-left: 25px;
 }
 
+/*
+ * Added because tables were not indented with the 'p' tags.
+ */
+table:not(.infra){
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  margin-left: 25px;
+}
+
 ul:not(.infra) {
     margin-left: 10px;
 }
