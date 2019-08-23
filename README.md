@@ -1,6 +1,6 @@
-# Low Code Development with Oracle Autonomous Cloud
+# Low Code Development with Oracle Autonomous Database
 
-Welcome to the Low Code Development with Oracle Autonomous Cloud hands-on lab. This lab will walk you through the following tasks:
+Welcome to the Low Code Development with Oracle Autonomous Database hands-on lab. This lab will walk you through the following tasks:
 
 -  Create an Autonomous Transaction Processing instance
 -  Access APEX in the Oracle Cloud
@@ -25,7 +25,7 @@ Welcome to the Low Code Development with Oracle Autonomous Cloud hands-on lab. T
 
 ### **Part 2**: Navigate to Module 1
 
-1. Click the navigation menu icon in the upper-left corner of the browser window to see a list of modules in the lab.
+1. [Click here](1-create-an-apex-workspace.md) to navigate to Module 1. Alternatively, you can click the navigation menu icon in the upper-left corner of the browser window to see a list of modules in the lab.
 
 	 ![](images/0/lab-intro.png)
 

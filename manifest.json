@@ -35,7 +35,7 @@
             {
                 "number": "3",
                 "filename": "3-build-database-objects-in-autonomous-database.md",
-                "title": "Module 3: Build Database Objects in SQL Developer Web",
+                "title": "Module 3: Build Database Objects in Autonomous Database",
                 "description": "",
                 "labels": {
                     "version": "Instructor Led"
@@ -43,7 +43,7 @@
             },
             {
                 "number": "4",
-                "filename": "4-create-and-modify-an-apex-app",
+                "filename": "4-create-and-modify-an-apex-app.md",
                 "title": "Module 4: Create and Modify APEX Application",
                 "description": "",
                 "labels": {

@@ -65,7 +65,7 @@ When you first access APEX you will need to log in as an APEX instance administr
 
    ![](images/1/click-application-express.png)
 
-3. Enter the password for the Administration Services and click **Sign In to Administration**. The password is the same as the one entered for the ADMIN user when creating the ATP instance: **`SuperSecretPassw0rd`**
+3. Enter the password for the Administration Services and click **Sign In to Administration**. The password is the same as the one entered for the ADMIN user when creating the ATP instance: **`SecretPassw0rd`**
 
    ![](images/1/log-in-as-admin.png)
 
@@ -73,12 +73,12 @@ When you first access APEX you will need to log in as an APEX instance administr
   
   ![](images/1/welcome-create-workspace.png)
 
-5. Enter the following details and click **Create Workspace**:
+5. Enter the following details and click **Create Workspace**.
 
    | Property | Value |
    | --- | --- |
    | Database User | **DEMO** |
-   | Password | **`SuperSecretPassw0rd`** |
+   | Password | **`SecretPassw0rd`** |
    | Workspace Name | **DEMO** |
   
    ![](images/1/create-workspace.png)
@@ -87,10 +87,10 @@ When you first access APEX you will need to log in as an APEX instance administr
 	
    ![](images/1/log-out-from-admin.png)
 
-7. Enter **`SuperSecretPassw0rd`** for the password, check the **Remember workspace and username** checkbox, and then click **Sign In**.
+7. Enter **`SecretPassw0rd`** for the password, check the **Remember workspace and username** checkbox, and then click **Sign In**.
 
    ![](images/1/log-in-to-workspace.png)
 
 ## Summary
 
-This completes Module 1. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. Use the navigation menu to navigate to Module 2.
+This completes Module 1. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here](2-create-an-app-from-a-spreadsheet.md) to navigate to Module 2.
