@@ -208,13 +208,17 @@ In this part, you will use SQL Developer Web to create a new table. Then you'll 
 
    ![](images/3/table-properties.png)
 
-3. Select the new column **NEW_COLUMN_1** and select the checkbox for **PK** to make it the primary key for this new table. In the area at the bottom of the dialog, enter **id** for Name and select **NUMBER** for Data Type.
+3. Select the new column **NEW_COLUMN_1** and select the checkbox for **PK** to make it the primary key for this new table. In the area at the bottom of the dialog, enter **ID** for Name and select **NUMBER** for Data Type.
 
    ![](images/3/new-column-1.png)
 
-4. Add two more columns with the following properties.
-   - Name: **name**; Data Type: **VARCHAR2(50)** (just change the number 20 to 50)
-   - Name: **status**; Data Type: **VARCHAR2(20)**
+4. Add three more columns with the following properties.
+
+   | # | Name | Data Type |
+   | --- | --- | --- |
+   | 1 | **NAME** | **VARCHAR2(50)** <br />*(just change the number 20 to 50)* |
+   | 2 | **STATUS** | **VARCHAR2(20)** |
+   | 3 | **DUE_DATE** | **TIMESTAMP WITH LOCAL TIME ZONE** <br />*(just type the full data type name)* |
 
    ![](images/3/additional-new-columns.png)
 
