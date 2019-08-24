@@ -10,7 +10,7 @@ In this module, you will create a new APEX application that will utilize the dat
 
 - Create an app from a script
 - Add an Interactive Grid page and create records
-- Enhance and save the Interactive Grid
+- Enhance the Interactive Grid
 - Add a Calendar page
 
 ## Parts
@@ -83,11 +83,11 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
    ![](images/4/report-page-created-successfully.png)
 
-   The runtime for the new Interactive Grid page will be opened in a new browser tab. In addition to the new page, a navigation menu item has been added on the left as well. This can be used to navigate to the page.
+   The new Interactive Grid page will open in a different browser tab. Note that a new navigation menu item has been added on the left as well.
 
    ![](images/4/new-interactive-grid-page.png)
 
-8. Since there is no data in the HOL_TODOS table, the Interactive Grid displays one empty record by default. Use the Add Row button to add two more empty rows, populate the columns as follows, then click **Save**. Don't populate the additional columns yet, you'll do that in the next part.
+8. Since there is no data in the HOL_TODOS table, the Interactive Grid displays one empty record by default. Use the **Add Row** button to add two more empty rows, populate the columns as follows, then click **Save**. Don't populate the additional columns yet, you'll do that in the next part.
 
     | Id | Name |
     | --- | --- |
@@ -97,7 +97,7 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
    ![](images/4/create-new-todos.png)
 
-### **Part 3:** Enhance and save the Interactive Grid
+### **Part 3:** Enhance the Interactive Grid
 
 A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. You'll then make some additional changes to the appearance of the Interactive Grid. 
 
