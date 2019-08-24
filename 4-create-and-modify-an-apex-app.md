@@ -79,7 +79,7 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
    ![](images/4/report-source.png)
 
-7. After the page is created, you will be redirected to the Page Designer (an IDE like interface) for the new page. To view the runtime for the new page, click the "Save and Run" button in the upper right-hand corner.
+7. After the page is created, you will be redirected to the Page Designer (an IDE like interface) for the new page. To view the runtime for the new page, click the "Save and Run Page" button in the upper right-hand corner.
 
    ![](images/4/report-page-created-successfully.png)
 
@@ -101,11 +101,13 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
 A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. You'll then make some additional changes to the appearance of the Interactive Grid. 
 
-1. At the bottom of the runtime page, you'll see the Developer Toolbar (not displayed to end users). Click **Edit Page 10** to return to the Page Designer for page 10.
+1. At the bottom of the runtime page, you'll see the Developer Toolbar (not displayed to end users). Click **Edit Page 10** to return to the Page Designer for page 10 (your page number may be different).
 
    ![](images/4/developer-toolbar.png)
 
 2. The Page Designer has three panes, each of which contains different tabs. The default tab in the left pane is the Rendering tab, which displays the various components involved with rendering the page. Expand the columns under the **Todos** region and select **DUE_DATE**. The Property Editor tab in the right pane will display the properties for the selected column. Set the Format Mask to **DD-MON-YYYY**.
+
+   ![](images/4/page-designer.png)
 
 3. When it comes to foreign key columns, it's often best to use a List of Values item that displays one thing to the end user from a lookup table, but returns the foreign key value behind the scenes. This is known as a dynamic list of values. Select the **TEAM_MEMBER_ID** column in the left pane and configure the properties of the column in the right pane as follows.
 
@@ -116,7 +118,7 @@ A page in APEX is made up of various components, such as regions, items, and but
     | List of Values | Type | **SQL Query** |
     | List of Values | SQL Query |**<pre style="padding:0;overflow-x:auto;background:none;">select full_name d, id r<br />from hol_team_members<br />order by d</pre>** |
 
-   ![](images/4/page-designer.png)
+   ![](images/4/page-designer-team-member-id.png)
 
 4. In addition to dynamic lists of values, it's sometimes beneficial to create a static list of values to constrain a user's input in a field. Select the **STATUS** column in the left pane and configure the properties of the column in the right pane as follows.
 
@@ -124,14 +126,58 @@ A page in APEX is made up of various components, such as regions, items, and but
     | --- | --- | --- |
     | Identification | Type | **Select List** |
     | List of Values | Type | **Static Values** |
-    | List of Values | Static Values | <table><thead><tr><th>Display Value</th><th>Return Value</th></tr><tr><td>Pending</td><td>Pending</td></tr><tr><td>Complete</td><td>Complete</td></tr></thead></table> |
+    | List of Values | Static Values | \**Use the popup to edit*<br /><table><thead><tr><th>Display Value</th><th>Return Value</th></tr><tr><td>**Pending**</td><td>**Pending**</td></tr><tr><td>**Complete**</td><td>**Complete**</td></tr></thead></table> |
+
+   ![](images/4/page-designer-status.png)
+
+5. Click the "Save and Run Page" button.
+
+   ![](images/4/click-save-and-run.png)
+
+   This will re-render the runtime page with the new settings. Try editing the last three columns to see how your updates affected the Interactive Grid.
+
+   ![](images/4/interactive-grid-after-edits.png)
 
 ### **Part 4:** Add a Calendar page
 
-APEX includes different components for viewing and working with data in different ways, including forms, reports, charts, and much more. One of the easiest ways to visualize data related to dates is with a calendar. In this part, you'll create a new calendar page in your application to view data in the HOL_TASKS table. 
+APEX includes different components for viewing and working with data in different ways, including forms, reports, charts, and much more. One of the easiest ways to visualize data related to dates is with a calendar. In this part, you'll create a new calendar page in your application to view data in the HOL_PROJECTS table. 
 
-1. todo
+1. Click the **Application 102** link (your app number may be different) in the Developer Toolbar. This will return you to the application's home page in the Application Builder.
+
+   ![](images/4/developer-toolbar-2.png)
+
+2. Click **Create Page**.
+
+   ![](images/4/click-create-page-2.png)
+
+3. Click **Calendar**.
+
+   ![](images/4/click-calendar.png)
+
+4. Set Page Name to **Calendar**, then click **Next >**.
+
+   ![](images/4/page-attributes-2.png)
+
+5. For Navigation Preference, select **Create a new navigation menu entry**. Set Parent Navigation Menu Entry to **Projects**, then click **Next >**.
+
+   ![](images/4/navigation-menu-2.png)
+
+6. For Table / View Name, use the popup to select **HOL_PROJECTS (table)**, then click **Next >**.
+
+   ![](images/4/source.png)
+
+7. Set Display Column to **NAME**, set End Date Column to **COMPLETED_DATE**, then click **Create**.
+
+   ![](images/4/settings.png)
+
+8. After the page is created, you will be redirected to the Page Designer for the new page. Click "Save and Run Page" to view the calendar at runtime.
+
+   ![](images/4/page-designer-calendar.png)
+
+9. Use the arrow buttons to change the months until you see some entries in the calendar. Also, note the new navigation menu entry under **Projects**.
+
+   ![](images/4/calendar-page.png)
 
 ## Summary
 
-You have completed the lab, well done! 
+You have completed the lab, well done! At this point you should have a basic understanding of how the Autonomous Transaction Processing service, along with APEX and SQL Developer Web can be used to develop data driven applications with very little code.
