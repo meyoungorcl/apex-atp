@@ -107,16 +107,24 @@ A page in APEX is made up of various components, such as regions, items, and but
 
 2. The Page Designer has three panes, each of which contains different tabs. The default tab in the left pane is the Rendering tab, which displays the various components involved with rendering the page. Expand the columns under the **Todos** region and select **DUE_DATE**. The Property Editor tab in the right pane will display the properties for the selected column. Set the Format Mask to **DD-MON-YYYY**.
 
-3. Select the **TEAM_MEMBER_ID** column in the left pane. Configure the properties of the column as follows.
+3. When it comes to foreign key columns, it's often best to use a List of Values item that displays one thing to the end user from a lookup table, but returns the foreign key value behind the scenes. This is known as a dynamic list of values. Select the **TEAM_MEMBER_ID** column in the left pane and configure the properties of the column in the right pane as follows.
 
-    | Property (group) | Value |
-    | --- | --- |
-    | Type (Identification) | **Select List** |
-    | Heading (Heading) | **Team Member** |
-    | Type (List of Values) | **SQL Query** |
-    | SQL Query (List of Values) |**<pre style="margin:0;overflow-x:auto;">select full_name d, id r<br />from hol_team_members<br />order by d</pre>** |
+    | Group | Property | Value |
+    | --- | --- | --- |
+    | Identification | Type | **Select List** |
+    | Heading | Heading | **Team Member** |
+    | List of Values | Type | **SQL Query** |
+    | List of Values | SQL Query |**<pre style="padding:0;overflow-x:auto;background:none;">select full_name d, id r<br />from hol_team_members<br />order by d</pre>** |
 
    ![](images/4/page-designer.png)
+
+4. In addition to dynamic lists of values, it's sometimes beneficial to create a static list of values to constrain a user's input in a field. Select the **STATUS** column in the left pane and configure the properties of the column in the right pane as follows.
+
+    | Group | Property | Value |
+    | --- | --- | --- |
+    | Identification | Type | **Select List** |
+    | List of Values | Type | **Static Values** |
+    | List of Values | Static Values | <table><thead><tr><th>Display Value</th><th>Return Value</th></tr><tr><td>Pending</td><td>Pending</td></tr><tr><td>Complete</td><td>Complete</td></tr></thead></table> |
 
 ### **Part 4:** Add a Calendar page
 
