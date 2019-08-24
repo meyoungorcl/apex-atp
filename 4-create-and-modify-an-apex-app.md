@@ -101,13 +101,13 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
 A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. You'll then make some additional changes to the appearance of the Interactive Grid. 
 
-1. At the bottom of the runtime page, you'll see the Developer Toolbar (not displayed to end users). Click **Edit Page 10** to return to the Page Designer for page 10 (your page number may be different).
+1. At the bottom of the runtime page, you'll see the Developer Toolbar (only displayed to developers). Click **Edit Page 10** to return to the Page Designer for page 10 (your page number may be different).
 
    ![](images/4/developer-toolbar.png)
 
 2. The Page Designer has three panes, each of which contains different tabs. The default tab in the left pane is the Rendering tab, which displays the various components involved with rendering the page. Expand the columns under the **Todos** region and select **DUE_DATE**. The Property Editor tab in the right pane will display the properties for the selected column. Set the Format Mask to **DD-MON-YYYY**.
 
-   ![](images/4/page-designer.png)
+   ![](images/4/page-designer-due-date.png)
 
 3. When it comes to foreign key columns, it's often best to use a List of Values item that displays one thing to the end user from a lookup table, but returns the foreign key value behind the scenes. This is known as a dynamic list of values. Select the **TEAM_MEMBER_ID** column in the left pane and configure the properties of the column in the right pane as follows.
 
