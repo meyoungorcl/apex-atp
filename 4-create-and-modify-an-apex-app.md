@@ -114,7 +114,7 @@ A page in APEX is made up of various components, such as regions, items, and but
     | Type (Identification) | **Select List** |
     | Heading (Heading) | **Team Member** |
     | Type (List of Values) | **SQL Query** |
-    | SQL Query (List of Values) |**<pre>select full_name d, id r<br />from hol_team_members<br />order by d</pre>** |
+    | SQL Query (List of Values) |**<pre style="margin:0;overflow-x:auto;">select full_name d, id r<br />from hol_team_members<br />order by d</pre>** |
 
    ![](images/4/page-designer.png)
 
