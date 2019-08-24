@@ -17,7 +17,7 @@ In this module, you will create a new APEX application that will utilize the dat
 
 ### **Part 1:** Create an app from a script
 
-In Module 3, Part 1, you used Quick SQL to create a script which you subsequently ran to create several tables. The Results page of running the script has a button that allows you to create a new application based on the script. APEX will parse the script to identify the tables and then create pages in the new app to view and edit data within those tables. In this part, you will create an app based on the script you previously ran.
+In Module 3, Part 1, you used Quick SQL to create a script which you subsequently ran to create several tables. The script's Results page has a button that allows you to create a new application based on the script. APEX will parse the script to identify the tables and then create pages in the new app to view and edit data within those tables. In this part, you will create an app based on the script you previously ran.
 
 1. Return to your APEX Workspace. You may need to re-authenticate if your previous session expired. If you need the APEX URL, return to the ATP Service Console, click **Development** in the menu on the left, then select **Oracle Application Express**. To log in, enter **DEMO** for the Workspace and Username fields and **`SecretPassw0rd`** for the password, then click **Sign In**.
 
@@ -53,15 +53,70 @@ In Module 3, Part 1, you used Quick SQL to create a script which you subsequentl
 
 ### **Part 2:** Add an Interactive Grid page and create records
 
-Thus far, you've used high-level wizards to generate applications: first from a spreadsheet and then from a script. In this part, you'll work at a lower level to add a new Interactive Grid page the application created in the previous part. After that, you'll use the new page to add some data to the HOL_TODOS table.
+Thus far, you've used high-level wizards to generate applications, first from a spreadsheet and then from a script. In this part, you'll work at a lower level to add a new Interactive Grid page the application. After that, you'll use the new Interactive Grid to add some data to the HOL_TODOS table.
 
-1. todo
+1. Return to the application's home page in the Application Builder, then click **Create Page >**.
+
+   ![](images/4/click-create-page.png)
+
+2. Click **Form**.
+
+   ![](images/4/click-form.png)
+
+3. Click **Editable Interactive Grid**.
+
+  ![](images/4/click-editable-interactive-grid.png)
+
+4. Set Page Name to **Todos**, then click **Next >**.
+
+  ![](images/4/page-attributes.png)
+
+5. For Navigation Preference, select **Create a new navigation menu entry**, then click **Next >**.
+
+  ![](images/4/navigation-menu.png)
+
+6. For Table / View Name, use the popup to select **HOL_TODOS (table)**, then click **Create**.
+
+   ![](images/4/report-source.png)
+
+7. After the page is created, you will be redirected to the Page Designer (an IDE like interface) for the new page. To view the runtime for the new page, click the "Save and Run" button in the upper right-hand corner.
+
+   ![](images/4/report-page-created-successfully.png)
+
+   The runtime for the new Interactive Grid page will be opened in a new browser tab. In addition to the new page, a navigation menu item has been added on the left as well. This can be used to navigate to the page.
+
+   ![](images/4/new-interactive-grid-page.png)
+
+8. Since there is no data in the HOL_TODOS table, the Interactive Grid displays one empty record by default. Use the Add Row button to add two more empty rows, populate the columns as follows, then click **Save**. Don't populate the additional columns yet, you'll do that in the next part.
+
+    | Id | Name |
+    | --- | --- |
+    | **1** | **Fix bugs** |
+    | **2** | **Test app** |
+    | **3** | **Deploy to production** |
+
+   ![](images/4/create-new-todos.png)
 
 ### **Part 3:** Enhance and save the Interactive Grid
 
-A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be declaratively configured via the Page Designer, an IDE like tool built into APEX. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous step. You'll then make some additional changes to the appearance of the Interactive Grid. 
+A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. You'll then make some additional changes to the appearance of the Interactive Grid. 
 
-1. todo
+1. At the bottom of the runtime page, you'll see the Developer Toolbar (not displayed to end users). Click **Edit Page 10** to return to the Page Designer for page 10.
+
+   ![](images/4/developer-toolbar.png)
+
+2. The Page Designer has three panes, each of which contains different tabs. The default tab in the left pane is the Rendering tab, which displays the various components involved with rendering the page. Expand the columns under the **Todos** region and select **DUE_DATE**. The Property Editor tab in the right pane will display the properties for the selected column. Set the Format Mask to **DD-MON-YYYY**.
+
+3. Select the **TEAM_MEMBER_ID** column in the left pane. Configure the properties of the column as follows.
+
+    | Property (group) | Value |
+    | --- | --- |
+    | Type (Identification) | **Select List** |
+    | Heading (Heading) | **Team Member** |
+    | Type (List of Values) | **SQL Query** |
+    | SQL Query (List of Values) |<code>select full_name d, id r<br />from hol_team_members<br />order by d</code> |
+
+   ![](images/4/page-designer.png)
 
 ### **Part 4:** Add a Calendar page
 
