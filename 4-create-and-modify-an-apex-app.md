@@ -47,7 +47,12 @@ In Module 3, Part 1, you used Quick SQL to create a script which you subsequentl
 7. Click **Run Application** to see the app at runtime. 
 
    ![](images/4/app-home-page-in-builder.png)
-8. Take a moment to explore the pages that APEX created on top of the tables identified in the script.
+
+8. Set username to **demo** and password to **`SecretPassw0rd`**, then click **Sign In**. 
+
+   ![](images/4/sign-in.png)
+
+9. Take a moment to explore the pages that APEX created on top of the tables identified in the script.
 
    ![](images/4/app-from-a-script-runtime.png)
 

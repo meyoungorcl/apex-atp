@@ -141,7 +141,7 @@ In this part, you will learn how to access SQL Developer Web and then use it to 
         p_url_mapping_pattern => 'demo', -- Alias used in the URL for access
         p_auto_rest_auth => true
       );
-      
+
       commit;
       
     end;
@@ -169,9 +169,10 @@ In this part, you will learn how to access SQL Developer Web and then use it to 
 
 9. Enter the following SQL query in the Worksheet and click the "Run Statement" icon to see the data in the table.
 
-   ```sql
-   select * from hol_projects;
-   ``` 
+    ```sql
+    select * from hol_projects;
+    ``` 
+   
    The data should be displayed in the Query Result tab at the bottom. 
    ![](images/3/query-results.png)
 
