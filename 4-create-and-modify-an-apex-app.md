@@ -99,7 +99,7 @@ Thus far, you've used high-level wizards to generate applications, first from a 
 
 ### **Part 3:** Enhance the Interactive Grid
 
-A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. You'll then make some additional changes to the appearance of the Interactive Grid. 
+A page in APEX is made up of various components, such as regions, items, and buttons. Once created, these components can be configured via the Page Designer. In this part, you'll use the Page Designer to make some changes to the Interactive Grid region created in the previous part. 
 
 1. At the bottom of the runtime page, you'll see the Developer Toolbar (only displayed to developers). Click **Edit Page 10** to return to the Page Designer for page 10 (your page number may be different).
 
@@ -146,7 +146,7 @@ APEX includes different components for viewing and working with data in differen
 
    ![](images/4/developer-toolbar-2.png)
 
-2. Click **Create Page**.
+2. Click **Create Page >**.
 
    ![](images/4/click-create-page-2.png)
 
